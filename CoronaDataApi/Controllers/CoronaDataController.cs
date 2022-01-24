@@ -35,7 +35,7 @@ namespace CoronaDataApi.Controllers
             var foundCountry = convertedResponse
                 .Countries
                 .FirstOrDefault(c =>
-                    c.Country.Equals(country, StringComparison.InvariantCultureIgnoreCase) 
+                    c.Country.Equals(country, StringComparison.InvariantCultureIgnoreCase)
                     || c.CountryCode.Equals(country, StringComparison.InvariantCultureIgnoreCase)
                 );
             if (foundCountry is null)

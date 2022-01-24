@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoronaDataApi", "CoronaDataApi\CoronaDataApi.csproj", "{5A2EF0A2-F2F7-4B48-85A5-C225BD8EBF8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPagesProject", "WebPagesProject\WebPagesProject.csproj", "{F1ED6936-3493-4807-ADD5-BD164351CD66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoronaDataApi.Tests", "CoronaDataApi.Tests\CoronaDataApi.Tests.csproj", "{0BD4968C-682C-40D4-B44D-DB4DB85E729A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5A2EF0A2-F2F7-4B48-85A5-C225BD8EBF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A2EF0A2-F2F7-4B48-85A5-C225BD8EBF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A2EF0A2-F2F7-4B48-85A5-C225BD8EBF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1ED6936-3493-4807-ADD5-BD164351CD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1ED6936-3493-4807-ADD5-BD164351CD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1ED6936-3493-4807-ADD5-BD164351CD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1ED6936-3493-4807-ADD5-BD164351CD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD4968C-682C-40D4-B44D-DB4DB85E729A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD4968C-682C-40D4-B44D-DB4DB85E729A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD4968C-682C-40D4-B44D-DB4DB85E729A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD4968C-682C-40D4-B44D-DB4DB85E729A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
